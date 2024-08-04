@@ -1,0 +1,80 @@
+
+.dt-search {
+    text-align: right;
+    /* Aligns search to the right */
+    float: right;
+    /* Floats it to the right */
+    margin-right: 10px;
+    font-size: 13px;
+}
+
+.dt-length {
+    font-size: 13px;
+    margin: 10px;
+}
+
+.dt-length label {
+    display: none;
+}
+
+
+.same-line {
+
+    display: flex;
+    flex-direction: row;
+    /* Ensures that all child divs are in the same line */
+    justify-content: space-between;
+    /* Distributes space between items */
+    align-items: center;
+    padding: 15px;
+
+
+}
+
+.dt-paging-button {
+    background-color: #00a1fe;
+    /* Background color */
+    color: #ffffff;
+    /* Text color */
+    border: none;
+    /* Remove default border */
+    padding: 5px 10px;
+    /* Smaller padding */
+    font-size: 14px;
+    /* Smaller font size */
+    font-weight: bold;
+    /* Font weight */
+    border-radius: 3px;
+    /* Slightly rounded corners */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    /* Subtle shadow effect */
+    cursor: pointer;
+    /* Pointer cursor on hover */
+    transition: background-color 0.3s ease, box-shadow 0.3s ease;
+    /* Smooth transition */
+}
+
+.dt-paging-button:hover {
+    background-color: #00a1fe;
+    /* Darker background on hover */
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.15);
+    /* Slightly larger shadow on hover */
+}
+
+.dt-paging-button:current {
+    background-color: #00a1fe;
+    /* Even darker background on click */
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.2);
+    /* Smaller shadow on click */
+}
+
+.dt-paging-button.current {
+    background-color: #007bff;
+    /* Different background color for active state */
+    color: #ffffff;
+    /* Text color for active state */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    /* Different shadow for active state */
+    font-weight: bolder;
+    /* Bolder text for active state */
+}

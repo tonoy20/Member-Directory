@@ -1,0 +1,185 @@
+/* login form start */
+
+.login-page {
+    font-family: "Poppins", sans-serif;
+    font-style: normal;
+    padding: 8% 26%;
+}
+
+.login-field {
+    .form-label {
+        color: rgba(102, 102, 102, 1);
+        font-size: 18px;
+        font-weight: 400;
+    }
+
+    .form-control {
+        border-radius: 12px;
+        border: 1px solid rgba(102, 102, 102, 0.35);
+        height: 50px;
+    }
+
+    .remember-checkbox {
+        width: 16px;
+        height: 16px;
+        accent-color: rgba(17, 17, 17, 1);
+    }
+
+    .checkbox-text {
+        font-size: 18px;
+    }
+
+    .terms-policy {
+        p {
+            font-weight: 400;
+        }
+
+        a {
+            color: rgba(17, 17, 17, 1);
+            font-weight: 500;
+        }
+    }
+
+    .login-button {
+        height: 64px;
+        border-radius: 32px;
+        background: rgb(51, 241, 115);
+        font-size: 1.4rem;
+    }
+
+    .login-button-invalid {
+        background: rgb(187, 186, 186) !important;
+    }
+
+    .forget-password {
+        color: rgba(17, 17, 17, 1);
+        font-weight: 500;
+    }
+
+    @media screen and (max-width: 500px) {
+        .form-label {
+            font-size: 11px;
+        }
+
+        .remember-checkbox {
+            width: 12px;
+            height: 14px;
+        }
+
+        .checkbox-text {
+            font-size: 14px;
+        }
+
+        .terms-policy {
+            p {
+                font-size: 14px;
+            }
+        }
+
+
+    }
+
+}
+
+@media only screen and (max-width: 600px) {
+    .login-page {
+        padding: 0%;
+    }
+
+}
+
+.acc-sign {
+    p {
+        color: rgba(102, 102, 102, 1);
+    }
+
+    a {
+        font-weight: 500;
+    }
+}
+
+.connect_line {
+    width: 30%;
+    height: 2px;
+    background: rgba(102, 102, 102, 0.25);
+}
+
+.connect_text {
+    font-size: 20px;
+    font-weight: 400;
+    margin-top: -2%;
+}
+
+@media screen and (max-width: 430px) {
+    .connect_line {
+        width: 20%;
+    }
+
+    .connect_text {
+        font-size: 10px;
+        margin-top: -4%;
+    }
+
+}
+
+/* login form end */
+
+/* registration page start */
+
+.reg-page {
+    font-family: "Poppins", sans-serif;
+    font-style: normal;
+    padding: 8% 26%;
+
+    .reg-circle {
+        width: 48px;
+        height: 48px;
+        background: rgba(196, 196, 196, 1);
+        border-radius: 50%;
+    }
+
+    .connect-with-button {
+        height: 64px;
+        border-radius: 32px;
+        border: 1px solid rgba(51, 51, 51, 1);
+        background-color: white;
+        font-size: 1.4rem;
+    }
+
+    .connect_text_reg {
+        color: rgba(102, 102, 102, 1);
+    }
+
+    .reg-pass-text {
+        color: rgba(102, 102, 102, 1);
+    }
+
+    /* media query */
+    @media screen and (max-width: 430px) {
+        .connect-with-button {
+            height: 45px;
+            font-size: 10px;
+        }
+
+        input::placeholder {
+            color: rgba(102, 102, 102, 1);
+            left: 6em;
+            font-size: 12px;
+        }
+
+        .reg-pass-text {
+            font-size: 10px;
+        }
+    }
+
+}
+
+@media only screen and (max-width: 600px) {
+    .reg-page {
+        padding: 0%;
+    }
+}
+
+
+
+/* registration page end */

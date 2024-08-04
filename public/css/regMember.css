@@ -1,0 +1,23 @@
+ /* form section */
+ .entryform {
+     font-family: "Roboto Condensed", sans-serif;
+     font-optical-sizing: auto;
+
+     section {
+         background-color: #8fc4b7;
+     }
+
+     .card {
+         background-color: rgb(32 149 217 / 35%);
+
+         img {
+             margin-left: 37%;
+             margin-top: 5%;
+         }
+
+         h2 {
+             color: rgb(61 85 88);
+             ;
+         }
+     }
+ }
